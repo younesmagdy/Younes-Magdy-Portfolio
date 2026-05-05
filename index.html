@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         :root {
             --bg-primary: #ffffff;
@@ -1230,7 +1230,10 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
-            <a href="#" class="logo">Younes<span>.</span></a>
+            <a href="#" class="logo" style="display: flex; align-items: center; gap: 12px;">
+    <img src="logo-ym.png" alt="YM Logo" style="width: 42px; height: 42px; object-fit: contain; border-radius: 8px;">
+    <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.5rem; color: var(--text-primary);">Younes<span style="background: var(--gradient-blue); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">.</span></span>
+</a>
             <button class="mobile-menu-btn" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
             </button>
@@ -1251,7 +1254,7 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-badge">
-                    <i class="fas fa-circle"></i> Available for Opportunities
+                    <span style="display: inline-block; width: 8px; height: 8px; background: #00a8e8; border-radius: 50%; margin-right: 8px;"></span> Available for Opportunities
                 </div>
                 <h1>Hi, I'm <span class="highlight">Younes Magdy</span></h1>
                 <p class="hero-subtitle">Mechatronics Engineer</p>
@@ -1261,10 +1264,10 @@
                 </p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i> Get In Touch
+                        &#9993; Get In Touch
                     </a>
                     <a href="#experience" class="btn btn-secondary">
-                        <i class="fas fa-briefcase"></i> View Experience
+                        &#128188; View Experience
                     </a>
                 </div>
             </div>
@@ -1273,14 +1276,14 @@
                     <img src="4BDADC02-ADC1-46E0-8D20-7B2F1ECCE326.jpg" alt="Younes Magdy">
                 </div>
                 <div class="floating-card card-1">
-                    <i class="fas fa-graduation-cap"></i>
+                    <span style="font-size: 1.5rem;">&#127891;</span>
                     <div class="floating-card-text">
                         <strong>Engineering Student</strong>
                         <span>Horus University</span>
                     </div>
                 </div>
                 <div class="floating-card card-2">
-                    <i class="fas fa-cogs"></i>
+                    <span style="font-size: 1.5rem;">&#9881;</span>
                     <div class="floating-card-text">
                         <strong>MEP Specialist</strong>
                         <span>HVAC & Fire Fighting</span>
@@ -1579,28 +1582,28 @@
             </div>
             <div class="certificates-grid">
                 <div class="certificate-card animate-on-scroll">
-                    <div class="certificate-icon"><img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.png" alt="SolidWorks" style="width: 30px; height: 30px; object-fit: contain;"></div>
+                    <div class="certificate-icon" style="background: #e3f2fd;"><i class="fas fa-cube" style="color: #1565c0; font-size: 1.3rem;"></i></div>
                     <div>
                         <div class="certificate-title">SOLIDWORKS Course</div>
                         <div class="certificate-issuer">INNOVATEX</div>
                     </div>
                 </div>
                 <div class="certificate-card animate-on-scroll">
-                    <div class="certificate-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB" style="width: 30px; height: 30px; object-fit: contain;"></div>
+                    <div class="certificate-icon" style="background: #fff3e0;"><i class="fas fa-calculator" style="color: #e65100; font-size: 1.3rem;"></i></div>
                     <div>
                         <div class="certificate-title">MATLAB Course</div>
                         <div class="certificate-issuer">IEEE Student Branch</div>
                     </div>
                 </div>
                 <div class="certificate-card animate-on-scroll">
-                    <div class="certificate-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube" style="width: 30px; height: 30px; object-fit: contain;"></div>
+                    <div class="certificate-icon" style="background: #ffebee;"><i class="fas fa-fire-extinguisher" style="color: #c62828; font-size: 1.3rem;"></i></div>
                     <div>
                         <div class="certificate-title">Firefighting & Safety Systems</div>
                         <div class="certificate-issuer">Ibrahim Lashien (YouTube)</div>
                     </div>
                 </div>
                 <div class="certificate-card animate-on-scroll">
-                    <div class="certificate-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube" style="width: 30px; height: 30px; object-fit: contain;"></div>
+                    <div class="certificate-icon" style="background: #e8f5e9;"><i class="fas fa-wind" style="color: #2e7d32; font-size: 1.3rem;"></i></div>
                     <div>
                         <div class="certificate-title">HVAC Systems</div>
                         <div class="certificate-issuer">Ibrahim Lashien (YouTube)</div>
@@ -1621,19 +1624,19 @@
             <div class="gallery-grid">
                 <div class="gallery-item animate-on-scroll">
                     <img src="D70A837D-B60B-4F4C-AF8D-4753DB5E40DE.jpg" alt="Exhibition Photo 1">
-                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                    <div class="gallery-overlay"><span style="font-size: 2rem;">&#9974;</span></div>
                 </div>
                 <div class="gallery-item animate-on-scroll">
                     <img src="48C61904-C1A2-4417-AA82-2E5B1C14A429.jpg" alt="Exhibition Photo 2">
-                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                    <div class="gallery-overlay"><span style="font-size: 2rem;">&#9974;</span></div>
                 </div>
                 <div class="gallery-item animate-on-scroll">
                     <img src="5BD885FD-B07A-4F37-8ABC-C84704B91DA0.jpg" alt="Calidus Exhibition">
-                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                    <div class="gallery-overlay"><span style="font-size: 2rem;">&#9974;</span></div>
                 </div>
                 <div class="gallery-item animate-on-scroll">
                     <img src="4BDADC02-ADC1-46E0-8D20-7B2F1ECCE326.jpg" alt="Personal Photo">
-                    <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+                    <div class="gallery-overlay"><span style="font-size: 2rem;">&#9974;</span></div>
                 </div>
             </div>
         </div>
@@ -1649,28 +1652,35 @@
                     <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
                     <div class="contact-links">
                         <a href="mailto:younesmgd7@gmail.com" class="contact-link">
-                            <i class="fas fa-envelope"></i>
+                            <span style="font-size: 1.2rem; color: #00a8e8;">&#9993;</span>
                             <div class="contact-link-text">
                                 <span class="contact-link-label">Email</span>
                                 <span class="contact-link-value">younesmgd7@gmail.com</span>
                             </div>
                         </a>
                         <a href="tel:+201016537863" class="contact-link">
-                            <i class="fas fa-phone"></i>
+                            <span style="font-size: 1.2rem; color: #00a8e8;">&#128222;</span>
                             <div class="contact-link-text">
                                 <span class="contact-link-label">Phone</span>
                                 <span class="contact-link-value">+20 101 653 7863</span>
                             </div>
                         </a>
                         <a href="https://www.linkedin.com/in/younes-magdy-470856304" target="_blank" class="contact-link">
-                            <img src="4BDADC02-ADC1-46E0-8D20-7B2F1ECCE326.jpg" alt="Younes" style="width: 40px; height: 40px; border-radius: 10px; object-fit: cover;">
+                            <span style="font-size: 1.2rem; color: #0077b5; font-weight: bold;">in</span>
                             <div class="contact-link-text">
                                 <span class="contact-link-label">LinkedIn</span>
                                 <span class="contact-link-value">Younes Magdy</span>
                             </div>
                         </a>
+                        <a href="https://www.facebook.com/share/1F5r7aoLhB/?mibextid=wwXIfr" target="_blank" class="contact-link">
+                            <span style="font-size: 1.2rem; color: #1877f2; font-weight: bold;">f</span>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">Facebook</span>
+                                <span class="contact-link-value">Younes Magdy</span>
+                            </div>
+                        </a>
                         <a href="#" class="contact-link">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <span style="font-size: 1.2rem; color: #00a8e8;">&#128205;</span>
                             <div class="contact-link-text">
                                 <span class="contact-link-label">Location</span>
                                 <span class="contact-link-value">Mansoura, Dakahlia, Egypt</span>
@@ -1697,7 +1707,7 @@
                             <textarea placeholder="Write your message here..." required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary" style="width: 100%;">
-                            <i class="fas fa-paper-plane"></i> Send Message
+                            &#9993; Send Message
                         </button>
                     </form>
                 </div>
@@ -1708,15 +1718,19 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div class="footer-logo">Younes<span>.</span></div>
+            <div class="footer-logo" style="display: flex; align-items: center; justify-content: center; gap: 12px;">
+    <img src="logo-ym.png" alt="YM Logo" style="width: 45px; height: 45px; object-fit: contain; border-radius: 10px;">
+    <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.5rem; color: var(--text-primary);">Younes<span style="background: var(--gradient-blue); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">.</span></span>
+</div>
             <div class="footer-social">
-                <a href="https://www.linkedin.com/in/younes-magdy-470856304" target="_blank" title="LinkedIn Profile"><img src="4BDADC02-ADC1-46E0-8D20-7B2F1ECCE326.jpg" alt="Younes Magdy" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-electric);"></a>
-                <a href="mailto:younesmgd7@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="tel:+201016537863" title="Phone"><i class="fas fa-phone"></i></a>
+                <a href="https://www.linkedin.com/in/younes-magdy-470856304" target="_blank" title="LinkedIn"><span style="font-weight: bold;">in</span></a>
+                <a href="https://www.facebook.com/share/1F5r7aoLhB/?mibextid=wwXIfr" target="_blank" title="Facebook"><span style="font-weight: bold;">f</span></a>
+                <a href="mailto:younesmgd7@gmail.com" title="Email: younesmgd7@gmail.com"><span style="font-size: 1.2rem; color: #00a8e8;">&#9993;</span></a>
+                <a href="tel:+201016537863" title="Phone: +20 101 653 7863"><span style="font-size: 1.2rem; color: #00a8e8;">&#128222;</span></a>
             </div>
             <div style="margin-top: 1.5rem;">
                 <a href="Younes_Magdy_Mechatronics_Engineer_CV.pdf" download class="btn btn-primary" style="display: inline-flex;">
-                    <i class="fas fa-file-pdf"></i> Download CV
+                    &#128196; Download CV
                 </a>
             </div>
             <p class="footer-text">© 2025 Younes Magdy. All rights reserved. | Mechatronics Engineer</p>
